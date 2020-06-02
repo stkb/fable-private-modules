@@ -3,6 +3,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Inner.Private.fs" />
+    <Compile Include="Inner.Internal.fs" />
     <Compile Include="App.fs" />
   </ItemGroup>
   <ItemGroup>
